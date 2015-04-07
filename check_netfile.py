@@ -1,5 +1,5 @@
 #!/usr/bin/python
 import os
-filepath='/etc/sysconfig/network'
+filepath='/etc/sysconfig/network-scripts/'
 
 print os.listdir(filepath)
