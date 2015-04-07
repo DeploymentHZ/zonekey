@@ -3,4 +3,4 @@ import os
 filepath='/etc/sysconfig/network-scripts/'
 
 allfile=os.listdir(filepath)
-netfile=allfile.index('ifcfg-*')
+netfile=allfile.index('ifcfg')
