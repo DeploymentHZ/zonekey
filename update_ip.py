@@ -1,2 +1,2 @@
-__author__ = 'hou'
+#!/bin/env python
 print  222222222222
