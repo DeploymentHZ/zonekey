@@ -1,2 +1,2 @@
-#!/bin/env python
-print  222222222222
+#!/usr/bin/python
+print 1111111
