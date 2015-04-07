@@ -2,4 +2,4 @@
 import os
 filepath='/etc/sysconfig/network'
 
-print os.path.basename(filepath)
+print os.listdir(filepath)
