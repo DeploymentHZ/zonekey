@@ -1,2 +1,5 @@
-#!/bin/env python
-print 111111111111
+#!/usr/bin/python
+import os
+filepath='/etc/sysconfig/network'
+
+print os.path.basename(filepath)
