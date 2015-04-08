@@ -72,3 +72,7 @@ def ip():
     a.close()
 
 
+onboot()
+ip()
+
+
