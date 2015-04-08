@@ -12,4 +12,3 @@ def  isfile():
     file=os.path.exists(file_path+int)
     return file
 
-print isfile()
