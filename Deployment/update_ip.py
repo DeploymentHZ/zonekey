@@ -17,7 +17,7 @@ def onboot():
     a=open(path+NetInterface,'r')
     match=re.compile(r'ONBOOT')
     list=[]
-        while 1:
+    while 1:
         c= a.readline()
         if not c:
             break
@@ -28,7 +28,7 @@ def onboot():
     a.close()
     list.append("ONBOOT=yes")
     a=open('path+NetInterface','w')
-        for i in list:
+    for i in list:
         a.write(i)
     a.close()
 
