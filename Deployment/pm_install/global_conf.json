@@ -1,12 +1,12 @@
 {
 	"NSService": {
-		"sip" : "172.16.1.14",
+		"sip" : "192.168.12.122",
 		"sport" :"8080"
 	},
 
 	"AutoUpdate": {
-		"version": "http://172.16.1.10/upload/update.txt",
-		"package": "http://172.16.1.10/upload/update.zip"
+		"version": "http://192.168.12.122/upload/update.txt",
+		"package": "http://192.168.12.122/upload/update.zip"
 	}
 }
 
