@@ -19,3 +19,4 @@ cp /home/pm_install/conf/my.cnf  /etc/my.cnf
 cp mysql.server /etc/init.d/mysqld
 ln -s /usr/local/mysql/bin/mysql* /bin
 service mysqld start
+cd /home/pm_install
