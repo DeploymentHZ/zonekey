@@ -1,0 +1,17 @@
+该脚本包括两部分:
+
+一 基本环境的安装
+
+   python-2.7.3 / tornado-4.0 / setuptools-14.3.1 /  backports.ssl_match_hostname-3.4.0.2 / meld3-1.0.2 / supervisor-3.1.3
+
+二 视频服务的安装
+
+   1.点播资源服务器端接口
+      
+      需要修改配置文件 /opt/zonekeyserver/vod/conf/vod.conf 中的publish_url = http://192.168.12.219:80/{filename} 把ip换成安装nginx的ip地址
+   
+   2.中继服务器
+
+      修改 /opt/zonekeyserver/repeater/conf/node.conf 中 nic_name 需要改成本机的网卡 
+
+     
